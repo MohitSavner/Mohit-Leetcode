@@ -3,15 +3,18 @@
 * Initialize res with array's 0th index.
 * XOR with 0th index's value and iterate through given array to get single number.
 ​
-Time Complexity: O(n)
+
+Time Complexity: O(n),
 Auxiliary Space: O(1)
 ​
+
 **Properties of XOR:**
 X^0 = X
 X^Y = Y^X
 X^(Y^Z) = (X^Y)^Z
 X^X = 0
 ​
+
 Example:
 res = 7 ^ 3 ^ 5 ^ 4 ^ 5 ^ 3 ^ 4
 ​
