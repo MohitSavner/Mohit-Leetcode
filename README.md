@@ -1,2 +1,2 @@
-# mohit-Leetcode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+#Mohit-Leetcode
+Collection of LeetCode questions for quick revision during coding Interviews.
