@@ -1,8 +1,8 @@
 **Number of Good Pairs**
-*
+
 **Brute force approach:**
 * Use concatinated for loop and within that compare two indices.
-*
+
 **Optimise approach:**
 * Initialize counter array size is given as per constraints.
 * Incrementing counter array as per array indices.
