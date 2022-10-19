@@ -6,9 +6,9 @@
     
     int numIdenticalPairs(int* nums, int numsSize){
     int counter = 0;
-    for(int i = 0; i < numsSize; i++){ //first index i.e. 0th
-        for(int j= i+1; j < numsSize ; j++){ //Second index i.e. 1st ...
-             if(nums[i] == nums[j] && i < j)  //Comparing two indices with and i < j
+    for(int i = 0; i < numsSize; i++){               //first index i.e. 0th
+        for(int j= i+1; j < numsSize ; j++){        //Second index i.e. 1st ...
+             if(nums[i] == nums[j] && i < j)       //Comparing two indices with and i < j
             counter++ ;  // Incrementing Counter
         }
        
