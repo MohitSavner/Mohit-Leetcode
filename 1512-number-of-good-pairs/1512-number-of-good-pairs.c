@@ -6,7 +6,7 @@
     
     int numIdenticalPairs(int* nums, int numsSize){
     int counter = 0;
-    for(int i = 0; (i < numsSize); i++){ 
+    for(int i = 0; i < numsSize; i++){ 
         for(int j= i+1; j < numsSize ; j++){
              if(nums[i] == nums[j] && i < j)
             counter++ ;
@@ -25,7 +25,7 @@
 
 int numIdenticalPairs(int* nums, int numsSize){
     int gpair = (numsSize*(numsSize-1)/2);
-    for(int i = 0, j=i+1; (i < numsSize); i++){
+    for(int i = 0; (i < numsSize); i++){
       
     }
        
