@@ -1,0 +1,16 @@
+int reverse(int x){
+    long long rev = 0 ;
+    while(x != 0) {
+        // Increase place value of reversed and
+        // add last digit to reversed
+        int temp = x%10;
+        rev = (rev*10) + temp;
+        if(rev>=INT_MAX || rev<=INT_MIN) //checkint if the reverse  value is following the      INT_MAX or INT_MIN condition or not
+			{ 
+                return 0;
+            }
+        // Remove last digit from number
+        x = x/10;
+    }
+return rev;
+}
