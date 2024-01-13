@@ -1,7 +1,7 @@
 /* 
    0  - removal >> level
    1  - removal >> leverl ( r need to remove to make it Vaild Palindrome)
-  >1  - removal >> abcd ( Need to remove multiple letters i.e. "bcd")
+   >1  - removal >> abcd ( Need to remove multiple letters i.e. "bcd")
   
 */
 
